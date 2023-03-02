@@ -18,3 +18,9 @@ for (i = 0; i < exampleList2.length; i++) {
   list1.textContent = exampleList2[i].name + " - " + exampleList2[i].age;
 }
 
+const h1 = document.querySelector(h1);
+document.querySelector("#display-text").addEventListener("input",
+function(){
+  h1.textContent = this.value;
+})
+
